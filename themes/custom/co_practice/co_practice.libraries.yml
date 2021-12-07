@@ -1,0 +1,8 @@
+global-styling:
+  version: 1.0
+  js:
+    # https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js: { type: external } # Example to include external sources
+    dist/js/main.bundle.js: { attributes: { preload: true }, preprocess: false, minified: true }
+  css:
+    component:
+      dist/css/main.css: { attributes: { preload: true }, preprocess: false, minified: true }

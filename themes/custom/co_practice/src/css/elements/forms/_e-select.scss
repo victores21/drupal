@@ -1,0 +1,11 @@
+//
+// Element Select
+//
+
+%select {
+  @extend %control;
+}
+
+select {
+  @extend %select;
+}

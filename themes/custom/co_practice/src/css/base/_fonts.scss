@@ -1,0 +1,7 @@
+//
+// Fonts
+//
+
+@include font-face(var(--font-material-icons), 'MaterialIcons-Regular');
+@include font-face(var(--font-family-primary), 'Roboto-Regular');
+@include font-face(var(--font-family-secondary), 'Rubik-Black', 900);

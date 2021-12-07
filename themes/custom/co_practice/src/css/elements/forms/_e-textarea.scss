@@ -1,0 +1,11 @@
+//
+// Element Textarea
+//
+
+%textarea {
+  @extend %control;
+}
+
+textarea {
+  @extend %textarea;
+}

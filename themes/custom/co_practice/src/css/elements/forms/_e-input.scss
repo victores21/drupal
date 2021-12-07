@@ -1,0 +1,11 @@
+//
+// Element Input
+//
+
+%input {
+  @extend %control;
+}
+
+input {
+  @extend %input;
+}

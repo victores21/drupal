@@ -1,0 +1,18 @@
+{
+  "main.js": "../js/main.bundle.js?b277f333",
+  "main.css": "../css/main.css?8524e26b3dbff01ba113",
+  "main.eot": "../fonts/Rubik-Black.eot?fb0fba3803abf8bfe0e03010c8d95fce",
+  "main.woff": "../fonts/Rubik-Black.woff?c203f4c651aadfbfabf11aff7cff4eef",
+  "main.woff2": "../fonts/Rubik-Black.woff2?c1617d2d7e810dbbd29bd7c04340ed3a",
+  "main.js.map": "../js/main.bundle.js.map?b277f333",
+  "main.css.map": "../css/main.css.map?8524e26b3dbff01ba113",
+  "fonts/Roboto-Regular.eot": "../fonts/Roboto-Regular.eot?30b57652c88c5dbd65de73aba00331a9",
+  "fonts/Rubik-Black.eot": "../fonts/Rubik-Black.eot?fb0fba3803abf8bfe0e03010c8d95fce",
+  "fonts/MaterialIcons-Regular.eot": "../fonts/MaterialIcons-Regular.eot?4674f8ded773cb03e824323bfc950537",
+  "fonts/Roboto-Regular.woff": "../fonts/Roboto-Regular.woff?31012f9b3e3da44f87e842e419bc267a",
+  "fonts/Rubik-Black.woff": "../fonts/Rubik-Black.woff?c203f4c651aadfbfabf11aff7cff4eef",
+  "fonts/Roboto-Regular.woff2": "../fonts/Roboto-Regular.woff2?a25806274237d06e00a6888155519b98",
+  "fonts/MaterialIcons-Regular.woff": "../fonts/MaterialIcons-Regular.woff?83bebaf37c09c7e1c3ee52682892ae14",
+  "fonts/Rubik-Black.woff2": "../fonts/Rubik-Black.woff2?c1617d2d7e810dbbd29bd7c04340ed3a",
+  "fonts/MaterialIcons-Regular.woff2": "../fonts/MaterialIcons-Regular.woff2?cff684e59ffb052d72cb8d5e49471553"
+}

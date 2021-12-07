@@ -1,0 +1,14 @@
+//
+// Typography
+//
+
+@at-root html {
+  @extend .type-base;
+
+  body {
+    color: var(--color-black);
+    font-kerning: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
