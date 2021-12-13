@@ -5,18 +5,18 @@
 	<div class="carousel-wrapper">
 		<h2 class="subttle">Carousel (Slick Carousel)<h2>
 		<div class="carousel js-carousel">
-			<div><img src="https://picsum.photos/300/200?random=1"></div>
-			<div><img src="https://picsum.photos/300/200?random=2"></div>
-			<div><img src="https://picsum.photos/300/200?random=3"></div>
-			<div><img src="https://picsum.photos/300/200?random=4"></div>
-			<div><img src="https://picsum.photos/300/200?random=5"></div>
-			<div><img src="https://picsum.photos/300/200?random=6"></div>
+			<div><img alt="carousel-slider" src="https://picsum.photos/300/200?random=1"></div>
+			<div><img alt="carousel-slider" src="https://picsum.photos/300/200?random=2"></div>
+			<div><img alt="carousel-slider" src="https://picsum.photos/300/200?random=3"></div>
+			<div><img alt="carousel-slider" src="https://picsum.photos/300/200?random=4"></div>
+			<div><img alt="carousel-slider" src="https://picsum.photos/300/200?random=5"></div>
+			<div><img alt="carousel-slider" src="https://picsum.photos/300/200?random=6"></div>
 		</div>
 	</div>	
 
 	<h2 class="subttle">Modal</h2>
     <button class="js-modal-button btn" modal-button-id="1">
-      Abrir
+      Abrir 
     </button>
     <div class="modal-container modal-container--top js-modal-container" modal-id="1">
       <div class="modal">
@@ -33,4 +33,25 @@
 
 </article>
 
+{# Schema #}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "Serempre",
+    "alternateName": "Serempre - Software",
+    "url": "{{ url('<front>') }}",
+    "logo": "https://www.serempre.com/assets/logo.75c72650.svg"
+  }
+</script>
 
+{# Datalayer #}
+<script>
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'pagePostType': 'frontpage',
+    'pagePostAuthor': 'Victor Escalona'
+  })
+
+  // GTM Container here
+</script>
