@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // 👇 Your custom scripts here 👇
+import { modalHandler } from '../js/utils/modals';
+import { carouselHandler } from './utils/carousel';
+modalHandler();
+carouselHandler();
 
 // ⛔ DON'T DELETE NEXT LINES!
 // Accept HMR as per: https://webpack.js.org/api/hot-module-replacement#accept

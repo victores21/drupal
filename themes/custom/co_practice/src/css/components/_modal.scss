@@ -1,0 +1,39 @@
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100vh;
+  background: #222f3e80;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+
+  .modal {
+    margin: 12px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 800px;
+    min-height: 300px;
+    background: #fff;
+
+    .modal-close-button {
+      text-align: right;
+      padding-right: 1rem;
+      padding-top: 0.5rem;
+    }
+  }
+}
+.modal-container--top {
+  top: -34px;
+}
+.show {
+  visibility: visible;
+  opacity: 1;
+  z-index: 9999;
+}

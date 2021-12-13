@@ -2,7 +2,18 @@ global-styling:
   version: 1.0
   js:
     # https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js: { type: external } # Example to include external sources
-    dist/js/main.bundle.js: { attributes: { preload: true }, preprocess: false, minified: true }
+    https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:
+      { type: external }
+    # http://code.jquery.com/jquery-migrate-1.2.1.min.js: { type: external }
+    https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js:
+      { type: external }
+    dist/js/main.bundle.js:
+      { attributes: { preload: true }, preprocess: false, minified: true }
   css:
     component:
-      dist/css/main.css: { attributes: { preload: true }, preprocess: false, minified: true }
+      ? 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css'
+      : { type: external }
+      ? 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'
+      : { type: external }
+      dist/css/main.css:
+        { attributes: { preload: true }, preprocess: false, minified: true }

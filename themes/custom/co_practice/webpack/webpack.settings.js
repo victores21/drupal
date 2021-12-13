@@ -13,13 +13,13 @@ module.exports = {
   devServerConfig: {
     // The base path of your Drupal development server. This is what you would
     // normally navigate to in your browser when working on the site.
-    proxy: 'https://localhost/template-drupal/', // e.g. "https://front-framework.dd:8443/"
+    proxy: 'http://localhost/template-drupal/', // e.g. "https://front-framework.dd:8443/"
     // The absolute path to the directory, relative to the PROXY path above, to the
     // directory that contains the files that you want webpack-dev-server to NOT
     // pass on to Drupal.
     public: '/template-drupal/themes/custom/co_practice/dist/', // e.g. "/themes/custom/front_framework/dist/"
     port: 8080, // Default port set to 8080, change it if port is already in use. e.g. 3000.
-    https: true, // Recommended.
+    https: false, // Recommended.
   },
   purgeCssConfig: {
     // Purgeable templates.

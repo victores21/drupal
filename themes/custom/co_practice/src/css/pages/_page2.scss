@@ -1,0 +1,28 @@
+.toolbar-tab {
+  // display: none;
+}
+.container-page2 {
+  height: 100%;
+  min-height: 100vh;
+
+  .title {
+    color: #1a0f50;
+    font-weight: 600;
+    font-size: 40px;
+  }
+
+  .subttle {
+    color: #1a0f50;
+    font-weight: 500;
+    font-size: 32px;
+  }
+}
+
+.btn {
+  background: #1a0f50;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+}
